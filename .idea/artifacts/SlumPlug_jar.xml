@@ -4,7 +4,7 @@
     <root id="archive" name="SlumPlug.jar">
       <element id="module-output" name="SlumPlug" />
       <element id="extracted-dir" path="$PROJECT_DIR$/spigot-api-1.19.2-R0.1-20221106.071812-39-shaded.jar" path-in-jar="/" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/org/msilot1001/slumplug/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
     </root>
   </artifact>
 </component>
