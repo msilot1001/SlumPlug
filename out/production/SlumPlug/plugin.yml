@@ -1,0 +1,5 @@
+name: SLUMPLUG # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: msilot1001
+main: Main
+api-version: 1.19
