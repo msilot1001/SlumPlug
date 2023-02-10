@@ -1,0 +1,18 @@
+name: SLUMPLUG # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: msilot1001
+main: org.msilot1001.slumplug.Main
+api-version: 1.19
+commands:
+  playerinfo:
+    description: User's profile
+    usage: /<command> [player]
+    permission: slumplug.playerinfo
+permissions:
+  slumplug.*:
+    description: Gives access to all SLUMPLUG commands
+    children:
+      slumplug.playerinfo: true
+  slumplug.playerinfo:
+    description: Allows you to open your player info
+    default: true
