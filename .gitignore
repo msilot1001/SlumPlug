@@ -1,0 +1,9 @@
+target/archive-tmp
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
+out
+.idea
+slumplug.iml
+spigot-api-1.19.2-R0.1-20221106.071812-39-shaded.jar
